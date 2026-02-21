@@ -1,6 +1,6 @@
 # 1 Billion Row Challenge
 
-Solution for the 1 Billion Row Challege using Zig:
+Solution for the 1 Billion Row Challenge using Zig:
 - Memory-map the file
 - Divide into chunks (one per logical CPU), align chunk boundaries to the next newline
 - Each thread scans its chunk, parses station name and integer temperature, updates a local `StringHashMap(StationStats)`
